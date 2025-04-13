@@ -39,6 +39,7 @@ header > nav{
 /******************/
 /*  Main Styles   */
 /******************/
+/*Home*/
 .home-container > main{
     height: 440px;
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(./images/forest-road.jpg);
@@ -70,4 +71,12 @@ header > nav{
     color: whitesmoke;
     background-color: #ff8c39;
     border-radius: 5px;
+}
+/*About*/
+.image-container{
+    height: 200px;
+    background-image: url(./images/about-camping.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
