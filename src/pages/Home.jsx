@@ -20,6 +20,9 @@ export default function Home(){
                     <button>Find your vehicle</button>
                 </section>
             </main>
+            <footer>
+                <p>©2025 #OVERLANDERS</p>
+            </footer>
         </div>
         
     )
