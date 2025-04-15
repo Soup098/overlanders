@@ -3,13 +3,6 @@ import { Link } from 'react-router-dom'
 export default function Home(){
     return(
         <div className="home-container">
-            <header>
-                <Link className={"title-link"}to="/">#OVERLANDERS</Link>
-                <nav>
-                    <Link className={"about-link"}to="/About">About</Link>
-                    <Link className={"trucks-link"}to="/Trucks">Trucks</Link>
-                </nav>
-            </header>
             <main>
                 <section>
                     <h1>You have trails to blaze, we have overlanders for days.</h1>
