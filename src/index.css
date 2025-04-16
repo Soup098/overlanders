@@ -54,7 +54,7 @@ footer{
 /*Home*/
 .home-container > main{
     height: 440px;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(./images/forest-road.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/public/images/forest-road.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -91,7 +91,7 @@ footer{
 }
 .image-container{
     height: 270px;
-    background-image: url(./images/about-camping.jpg);
+    background-image: url(/public/images/about-camping.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -126,4 +126,46 @@ footer{
     background-color: #151619;
     border: none;
     border-radius: 5px;
+}
+
+/************************/
+/*  Trucks Styles   */
+/************************/
+
+.trucks-container > main{
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+}
+.truck-tile{
+    border: none;
+    padding: 5px;
+    box-shadow: 1px 1px 5px grey;
+    border-radius: 5px;;
+}
+.truck-tile > img{
+    max-width: 100%;
+}
+.truck-info{
+    padding: 5px;
+}
+.truck-info > h1{
+    margin: 0;
+}
+.type-price{
+    border: 1px solid red;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.type-price > h2{
+    margin-left: 5px;
+    border: 1px solid black;
+    padding: 3px 10px
+}
+.type-price > p{
+    display: flex;
+    flex-direction: column;
+    line-height: normal;
 }

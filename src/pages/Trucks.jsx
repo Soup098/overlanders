@@ -12,12 +12,27 @@ export default function Trucks(){
     }, [])
 
     const truckElements = trucks.map(truck => (
-        <h1>{truck.name}</h1>
+        <div key={truck.id} className="truck-tile">
+            <img src={truck.imageUrl} alt="truck image"/>
+            <div className="truck-info">
+                <h1>{truck.name}</h1>
+                <div className="type-price">
+                    <h2>{truck.type}</h2>
+                    <p>
+                        {truck.price}
+                        <span>/day</span>
+                    </p>
+                </div>
+            </div>
+        </div>
     ))
 
     return(
-        <div>
-            {truckElements}
+        <div className="trucks-container">
+            <main>
+                {truckElements}
+            </main>
+            
         </div>
     )
 }

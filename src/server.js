@@ -6,7 +6,7 @@ createServer({
     },
 
     seeds(server) {
-        server.create("truck", { id: "1", name: "Toyota Tacoma", price: 60, description: "The biily bob banger of the east the tuesday special all you need and nothing you dont hot dogs included", imageUrl: "./images/tacoma.jpg", type: "dope" })
+        server.create("truck", { id: "1", name: "Toyota Tacoma", price: 60, description: "The biily bob banger of the east the tuesday special all you need and nothing you dont hot dogs included", imageUrl: "https://assets.scrimba.com/advanced-react/react-router/modest-explorer.png", type: "dope" })
 
         server.create("truck", { id: "2", name: "Beach Bum", price: 80, description: "Beach Bum is a van inspired by surfers and travelers. It was created to be a portable home away from home, but with some cool features in it you won't find in an ordinary camper.", imageUrl: "https://assets.scrimba.com/advanced-react/react-router/beach-bum.png", type: "rugged" })
 
