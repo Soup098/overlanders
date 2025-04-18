@@ -47,6 +47,7 @@ footer{
     background-color: #151619;
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 /******************/
 /*  Main Styles   */
@@ -149,23 +150,39 @@ footer{
 }
 .truck-info{
     padding: 5px;
+    color: #161616;
 }
-.truck-info > h1{
+.truck-info > h1, .truck-type{
+    font-size: 1.4rem;
     margin: 0;
 }
+.truck-type{
+    color: whitesmoke;
+    font-size: 1rem;
+    font-weight: 400;
+    margin-left: 5px;
+    padding: 5px 14px;
+    border-radius: 5px;
+}
+.truck-type.simple.selected{
+    background-color: #e27555;
+}
+.truck-type.rugged.selected{
+    background-color: #115e58;
+}
+.truck-type.luxury.selected{
+    background-color: #161616;
+}
 .type-price{
-    border: 1px solid red;
     display: flex;
     justify-content: space-between;
     align-items: center;
-}
-.type-price > h2{
-    margin-left: 5px;
-    border: 1px solid black;
-    padding: 3px 10px
 }
 .type-price > p{
     display: flex;
     flex-direction: column;
     line-height: normal;
+}
+.truck-detail-link{
+    text-decoration: none;
 }
