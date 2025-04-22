@@ -182,6 +182,7 @@ footer{
     display: flex;
     flex-direction: column;
     line-height: normal;
+    font-weight: 500;
 }
 .truck-detail-link{
     text-decoration: none;

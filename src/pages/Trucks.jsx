@@ -21,7 +21,7 @@ export default function Trucks(){
                     <div className="type-price">
                         <h2 className={`truck-type ${truck.type} selected`}>{truck.type}</h2>
                         <p>
-                            {truck.price}
+                            {`$${truck.price}`}
                             <span>/day</span>
                         </p>
                     </div>
