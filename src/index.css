@@ -77,14 +77,20 @@ footer{
 .home-container > main > section > p{
     font-size: 1.2rem;
 }
-.home-container > main > section > button{
+.find-vehicle-button{
     width: 100%;
     height: 50px;
-    font-size: 1.1rem;
+    font-size: 1.2rem;
+    font-weight: 600;
     color: whitesmoke;
     background-color: #ff8c39;
     border: none;
     border-radius: 5px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-shadow: 0 0 1px black;
 }
 /*About*/
 .about-container > main{

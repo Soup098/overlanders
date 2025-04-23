@@ -10,7 +10,7 @@ export default function Home(){
                         Bring a source for new adventure into your life by joining the # overlander movement.
                         Rent the perfect vehicle to take you where you want to go.
                     </p>
-                    <button>Find your vehicle</button>
+                    <Link className={"find-vehicle-button"} to="/trucks">Find your vehicle</Link>
                 </section>
             </main>
             <footer>
