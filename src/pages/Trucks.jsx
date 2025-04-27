@@ -30,8 +30,6 @@ export default function Trucks(){
         </Link>
     ))
 
-    //<Link className={"about-link"}to="/About">About</Link> 
-
     return(
         <div className="trucks-container">
             <main>

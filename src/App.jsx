@@ -1,4 +1,3 @@
-import { useState } from 'react'
 import { BrowserRouter, Routes, Route, Link } from 'react-router-dom' //import the BrowserRouter context provider
 import Home from './pages/Home'
 import About from './pages/About'

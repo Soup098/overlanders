@@ -193,3 +193,31 @@ footer{
 .truck-detail-link{
     text-decoration: none;
 }
+
+/************************/
+/*    Trucks details    */
+/************************/
+
+.truck-detail{
+    display: flex;
+    flex-direction: column;
+}
+.truck-detail > img{
+    margin: 5px auto;
+    width: 100%;
+    border-radius: 5px;
+}
+.truck-detail > i{
+    align-self: flex-start;
+}
+.truck-detail .link-button{
+    background-color: #FF8C38;
+    color: white;
+    font-size: 1.125rem;
+    padding: 10px;
+    border: none;
+    border-radius: 5px
+}
+.truck-detail .link-button:hover{
+    cursor: pointer;
+}
