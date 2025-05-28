@@ -13,7 +13,7 @@ export default function About(){
                     <section className="about-action-container">
                         <h1>The adventure of a lifetime is waiting.</h1>
                         <h1>The rig you need is prepped</h1>
-                        <button>Explore overlanders</button>
+                        <button><Link className={"trucks-button"}to="/Trucks">Explore overlanders</Link></button>
                     </section>
                 </section>
             </main>

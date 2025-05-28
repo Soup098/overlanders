@@ -134,6 +134,10 @@ footer{
     border: none;
     border-radius: 5px;
 }
+.trucks-button{
+    color: whitesmoke;
+    text-decoration: none;
+}
 
 /************************/
 /*  Trucks Styles   */
