@@ -5,6 +5,7 @@ import "../server"
 
 export default function TruckDetail(){
     const params = useParams()//gets the paramaters of the page, in this case it is just the /:id endpoint
+    console.log(params)
 
     const [truck, setTruck] = useState(null)//set the initial state of the truck variable to null
     useEffect(() => {//on render, fetch the data from the fake server based on the id stored in params. 
