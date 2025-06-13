@@ -23,7 +23,7 @@ export default function TruckDetail(){
                     <h2>{truck.name}</h2>
                     <p className="truck-price"><span>${truck.price}</span>/day</p>
                     <p>{truck.description}</p>
-                    <button className="link-button">Rent this van</button>
+                    <button className="link-button">Rent this truck</button>
                 </div>
             ) : <h2>Loading...</h2>}
         </div>

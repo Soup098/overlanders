@@ -13,8 +13,8 @@ export default function Trucks(){
     }, [])
 
     const truckElements = trucks.map(truck => (
-        <Link className={"truck-detail-link"} to={`/trucks/${truck.id}`}>
-            <div key={truck.id} className="truck-tile">
+        <Link key={truck.id} className={"truck-detail-link"} to={`/trucks/${truck.id}`}>
+            <div className="truck-tile">
                 <img src={truck.imageUrl} alt="truck image"/>
                 <div className="truck-info">
                     <h1>{truck.name}</h1>
